@@ -6,6 +6,8 @@ jobs:
         steps:
             - name: first job
               run: echo "first job"
+            - name: check out
+              uses: actions/checkout@v3
             - name: list files
               run: ls
             - name: read file
